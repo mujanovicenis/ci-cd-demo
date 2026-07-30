@@ -21,5 +21,5 @@ jobs:
         run: pytest 
 
       - name: Build Docker image
-        run: dokcer build -t moj-ci-cd-image .
+        run: docker build -t moj-ci-cd-image .
 
